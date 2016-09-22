@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BVBYouTubeSearch_Example' do
+  pod 'BVBYouTubeSearch', :path => '../'
+
+  target 'BVBYouTubeSearch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
